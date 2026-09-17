@@ -1,0 +1,183 @@
+gemma-scope-2b-pt-res-canonical:
+  conversion_func: gemma_2
+  links:
+    dashboards: https://www.neuronpedia.org/gemma-2-2b/gemmascope-res-16k
+    model: https://huggingface.co/google/gemma-2-2b
+    publication: https://huggingface.co/google/gemma-scope
+  model: gemma-2-2b
+  repo_id: google/gemma-scope-2b-pt-res
+  saes:
+  - id: layer_0/width_16k/canonical
+    neuronpedia: gemma-2-2b/0-gemmascope-res-16k
+    path: layer_0/width_16k/average_l0_105
+  - id: layer_1/width_16k/canonical
+    neuronpedia: gemma-2-2b/1-gemmascope-res-16k
+    path: layer_1/width_16k/average_l0_102
+  - id: layer_2/width_16k/canonical
+    neuronpedia: gemma-2-2b/2-gemmascope-res-16k
+    path: layer_2/width_16k/average_l0_141
+  - id: layer_3/width_16k/canonical
+    neuronpedia: gemma-2-2b/3-gemmascope-res-16k
+    path: layer_3/width_16k/average_l0_59
+  - id: layer_4/width_16k/canonical
+    neuronpedia: gemma-2-2b/4-gemmascope-res-16k
+    path: layer_4/width_16k/average_l0_124
+  - id: layer_5/width_16k/canonical
+    neuronpedia: gemma-2-2b/5-gemmascope-res-16k
+    path: layer_5/width_16k/average_l0_68
+  - id: layer_6/width_16k/canonical
+    neuronpedia: gemma-2-2b/6-gemmascope-res-16k
+    path: layer_6/width_16k/average_l0_70
+  - id: layer_7/width_16k/canonical
+    neuronpedia: gemma-2-2b/7-gemmascope-res-16k
+    path: layer_7/width_16k/average_l0_69
+  - id: layer_8/width_16k/canonical
+    neuronpedia: gemma-2-2b/8-gemmascope-res-16k
+    path: layer_8/width_16k/average_l0_71
+  - id: layer_9/width_16k/canonical
+    neuronpedia: gemma-2-2b/9-gemmascope-res-16k
+    path: layer_9/width_16k/average_l0_73
+  - id: layer_10/width_16k/canonical
+    neuronpedia: gemma-2-2b/10-gemmascope-res-16k
+    path: layer_10/width_16k/average_l0_77
+  - id: layer_11/width_16k/canonical
+    neuronpedia: gemma-2-2b/11-gemmascope-res-16k
+    path: layer_11/width_16k/average_l0_80
+  - id: layer_12/width_16k/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-16k
+    path: layer_12/width_16k/average_l0_82
+  - id: layer_13/width_16k/canonical
+    neuronpedia: gemma-2-2b/13-gemmascope-res-16k
+    path: layer_13/width_16k/average_l0_84
+  - id: layer_14/width_16k/canonical
+    neuronpedia: gemma-2-2b/14-gemmascope-res-16k
+    path: layer_14/width_16k/average_l0_84
+  - id: layer_15/width_16k/canonical
+    neuronpedia: gemma-2-2b/15-gemmascope-res-16k
+    path: layer_15/width_16k/average_l0_78
+  - id: layer_16/width_16k/canonical
+    neuronpedia: gemma-2-2b/16-gemmascope-res-16k
+    path: layer_16/width_16k/average_l0_78
+  - id: layer_17/width_16k/canonical
+    neuronpedia: gemma-2-2b/17-gemmascope-res-16k
+    path: layer_17/width_16k/average_l0_77
+  - id: layer_18/width_16k/canonical
+    neuronpedia: gemma-2-2b/18-gemmascope-res-16k
+    path: layer_18/width_16k/average_l0_74
+  - id: layer_19/width_16k/canonical
+    neuronpedia: gemma-2-2b/19-gemmascope-res-16k
+    path: layer_19/width_16k/average_l0_73
+  - id: layer_20/width_16k/canonical
+    neuronpedia: gemma-2-2b/20-gemmascope-res-16k
+    path: layer_20/width_16k/average_l0_71
+  - id: layer_21/width_16k/canonical
+    neuronpedia: gemma-2-2b/21-gemmascope-res-16k
+    path: layer_21/width_16k/average_l0_70
+  - id: layer_22/width_16k/canonical
+    neuronpedia: gemma-2-2b/22-gemmascope-res-16k
+    path: layer_22/width_16k/average_l0_72
+  - id: layer_23/width_16k/canonical
+    neuronpedia: gemma-2-2b/23-gemmascope-res-16k
+    path: layer_23/width_16k/average_l0_75
+  - id: layer_24/width_16k/canonical
+    neuronpedia: gemma-2-2b/24-gemmascope-res-16k
+    path: layer_24/width_16k/average_l0_73
+  - id: layer_25/width_16k/canonical
+    neuronpedia: gemma-2-2b/25-gemmascope-res-16k
+    path: layer_25/width_16k/average_l0_116
+  - id: layer_5/width_1m/canonical
+    neuronpedia: gemma-2-2b/5-gemmascope-res-1m
+    path: layer_5/width_1m/average_l0_114
+  - id: layer_12/width_1m/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-1m
+    path: layer_12/width_1m/average_l0_107
+  - id: layer_19/width_1m/canonical
+    neuronpedia: gemma-2-2b/19-gemmascope-res-1m
+    path: layer_19/width_1m/average_l0_88
+  - id: layer_12/width_262k/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-262k
+    path: layer_12/width_262k/average_l0_121
+  - id: layer_12/width_32k/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-32k
+    path: layer_12/width_32k/average_l0_76
+  - id: layer_12/width_524k/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-524k
+    path: layer_12/width_524k/average_l0_115
+  - id: layer_0/width_65k/canonical
+    neuronpedia: gemma-2-2b/0-gemmascope-res-65k
+    path: layer_0/width_65k/average_l0_73
+  - id: layer_1/width_65k/canonical
+    neuronpedia: gemma-2-2b/1-gemmascope-res-65k
+    path: layer_1/width_65k/average_l0_121
+  - id: layer_2/width_65k/canonical
+    neuronpedia: gemma-2-2b/2-gemmascope-res-65k
+    path: layer_2/width_65k/average_l0_77
+  - id: layer_3/width_65k/canonical
+    neuronpedia: gemma-2-2b/3-gemmascope-res-65k
+    path: layer_3/width_65k/average_l0_89
+  - id: layer_4/width_65k/canonical
+    neuronpedia: gemma-2-2b/4-gemmascope-res-65k
+    path: layer_4/width_65k/average_l0_89
+  - id: layer_5/width_65k/canonical
+    neuronpedia: gemma-2-2b/5-gemmascope-res-65k
+    path: layer_5/width_65k/average_l0_105
+  - id: layer_6/width_65k/canonical
+    neuronpedia: gemma-2-2b/6-gemmascope-res-65k
+    path: layer_6/width_65k/average_l0_107
+  - id: layer_7/width_65k/canonical
+    neuronpedia: gemma-2-2b/7-gemmascope-res-65k
+    path: layer_7/width_65k/average_l0_107
+  - id: layer_8/width_65k/canonical
+    neuronpedia: gemma-2-2b/8-gemmascope-res-65k
+    path: layer_8/width_65k/average_l0_111
+  - id: layer_9/width_65k/canonical
+    neuronpedia: gemma-2-2b/9-gemmascope-res-65k
+    path: layer_9/width_65k/average_l0_118
+  - id: layer_10/width_65k/canonical
+    neuronpedia: gemma-2-2b/10-gemmascope-res-65k
+    path: layer_10/width_65k/average_l0_128
+  - id: layer_11/width_65k/canonical
+    neuronpedia: gemma-2-2b/11-gemmascope-res-65k
+    path: layer_11/width_65k/average_l0_70
+  - id: layer_12/width_65k/canonical
+    neuronpedia: gemma-2-2b/12-gemmascope-res-65k
+    path: layer_12/width_65k/average_l0_72
+  - id: layer_13/width_65k/canonical
+    neuronpedia: gemma-2-2b/13-gemmascope-res-65k
+    path: layer_13/width_65k/average_l0_75
+  - id: layer_14/width_65k/canonical
+    neuronpedia: gemma-2-2b/14-gemmascope-res-65k
+    path: layer_14/width_65k/average_l0_73
+  - id: layer_15/width_65k/canonical
+    neuronpedia: gemma-2-2b/15-gemmascope-res-65k
+    path: layer_15/width_65k/average_l0_127
+  - id: layer_16/width_65k/canonical
+    neuronpedia: gemma-2-2b/16-gemmascope-res-65k
+    path: layer_16/width_65k/average_l0_128
+  - id: layer_17/width_65k/canonical
+    neuronpedia: gemma-2-2b/17-gemmascope-res-65k
+    path: layer_17/width_65k/average_l0_125
+  - id: layer_18/width_65k/canonical
+    neuronpedia: gemma-2-2b/18-gemmascope-res-65k
+    path: layer_18/width_65k/average_l0_116
+  - id: layer_19/width_65k/canonical
+    neuronpedia: gemma-2-2b/19-gemmascope-res-65k
+    path: layer_19/width_65k/average_l0_115
+  - id: layer_20/width_65k/canonical
+    neuronpedia: gemma-2-2b/20-gemmascope-res-65k
+    path: layer_20/width_65k/average_l0_114
+  - id: layer_21/width_65k/canonical
+    neuronpedia: gemma-2-2b/21-gemmascope-res-65k
+    path: layer_21/width_65k/average_l0_111
+  - id: layer_22/width_65k/canonical
+    neuronpedia: gemma-2-2b/22-gemmascope-res-65k
+    path: layer_22/width_65k/average_l0_116
+  - id: layer_23/width_65k/canonical
+    neuronpedia: gemma-2-2b/23-gemmascope-res-65k
+    path: layer_23/width_65k/average_l0_123
+  - id: layer_24/width_65k/canonical
+    neuronpedia: gemma-2-2b/24-gemmascope-res-65k
+    path: layer_24/width_65k/average_l0_124
+  - id: layer_25/width_65k/canonical
+    neuronpedia: gemma-2-2b/25-gemmascope-res-65k
+    path: layer_25/width_65k/average_l0_93

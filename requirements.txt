@@ -1,0 +1,17 @@
+transformer-lens
+sae-lens
+torch
+transformers
+numpy
+requests
+tqdm
+uvicorn
+fastapi
+openai
+openai-agents
+langchain>=1.2.12
+langchain-openai>=1.1.11
+langgraph>=1.1.2
+matplotlib>=3.10.8
+anthropic>=0.43.0
+pytest>=8,<9

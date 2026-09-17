@@ -1,0 +1,62 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs and outputs
+logs*/
+logs-cc
+figures_report
+smoke*
+*.job
+*.out
+*.err
+selfev_002_refine_cont120_manifest.json
+
+# IDE and OS
+.vscode/
+.DS_Store
+batch_run*.py
+batch_run*.log
+batch_agent*
+
+# Temporary analysis scripts
+summarize_round3_cosine_diff.py
+
+generate_round3_seed_sweep.py
+run_round3_seed_sweep_analysis.py
+summarize_round3_seed_stability.py
+
+analyze_*.py
+tests/probe_*.py
+tests/tmp_*.py
+tests/test_analyze_*.py
+tests/test_output_llm_token_match_eval_runner.py
+
+resume_*.py
+*.log
+**/.maintenance.lock
+*outputs/
+*output/
+runs/
+
+bos_feature_ids.txt
+initial_observation/
+run*.sh
+
+# Local credentials and private configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+api_key.txt
+api_keys.txt
+secrets/
+credentials.json
