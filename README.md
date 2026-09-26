@@ -31,11 +31,11 @@ arguments override environment variables.
 | 1 | `step1_initial_observation.py` | Initial activation evidence |
 | 2 | `step2_generate_input_hypotheses.py` | Input hypotheses |
 | 3 | `step3_design_input_experiments.py` | Input experiments |
-| 4 | `step4_score_input_experiments.py` | M1 input scores |
+| 4 | `step4_score_input_experiments.py` | Input scores |
 | 5 | `step5_run_intervention.py` | Intervention evidence |
 | 6 | `step6_generate_output_hypotheses.py` | Output hypotheses |
-| 7 | `step7_score_output_hypotheses.py` | M2 output scores |
-| 8 | `step8_build_chain_hypotheses.py` | M3 chain scores |
+| 7 | `step7_score_output_hypotheses.py` | Output scores |
+| 8 | `step8_build_chain_hypotheses.py` | Functional scores |
 | 9 | `step9_synthesize_chain_explanation.py` | Final `trace.json` |
 
 The agent refines only the failed component and selectively reruns the required steps.
@@ -81,10 +81,10 @@ python agent_runner.py \
 
 | Metric | Threshold |
 |--------|-----------|
-| M1 activation rate | 0.8 |
-| M1 boundary rejection rate | 0.8 |
-| M2 output score | 0.5 |
-| M3 chain score | 4 / 5 |
+| Activation coverage | 0.8 |
+| Boundary rejection | 0.8 |
+| Output score | 0.5 |
+| Functional score | 4 / 5 |
 
 Results are written under `logs/layer-{L}/feature-{F}/{TIMESTAMP}/`. The final trace contains
 the three interpretations, diagnostic evidence, token cost, final metrics, and gate outcomes.
